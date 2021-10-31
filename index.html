@@ -5,9 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Wyvern</title>
-
-	<!-- Stylesheets starts -->
-	<!-- // Stylesheets ends -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	
 </head>
 <body>
 	<div id="wyvern">
@@ -15,33 +16,316 @@
 
 			<!-- All your header related works -->
 			<header>
-				<div class="logo"></div>
-				<div class="navigation"></div>
+				<div class="logo" style="height: 10px; width: 10px;"><a href="index.html"><img src="assets/img/logo.png"></a>
+				</div>
+				<div class="navigation">
+					<ul id="menulist">
+						<li><a href="">HOME</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">BLOG</a></li>
+						<li><a href="">CONTACT</a></li>
+					</ul>
+				</div>
+				<img src="assets/img/logo1.png" class="menu-icon" id="menuList" onclick="togglemenu()">
 			</header>
-
+        
 			<!-- All your main body contents and sections. -->
-			<main>
-				<div id="section-1"></div>
-				<div id="section-2"></div>
-				<div id="section-3"></div>
-				<div id="section-4"></div>
-			</main>
-
-			<aside>
+			<div class="wrapper">
+				<aside>
 				<!-- Your sidebar stuffs -->
+				
+					<div class="sidebar">
+						
+                         <ul>
+                         	<li><a href="#"><i class="fas fa-home"></i><span>Home</span></a></li>
+                         	<li><a href="#"><i class="fas fa-layer-group"></i><span>View orders</span></a></li>
+						    <li><a href="#"><i class="fas fa-heart"></i><span>Favourites</span></a></li>
+						    <li><a href="#"><i class="fas fa-user"></i><span>Personal details</span></a></li>
+						    <li><a href=""><i class="fas fa-money-check-alt"></i><span>Payment method</span></a></li>
+						    <li><a href=""><i class="fas fa-map-marker-alt"></i><span>Manage addresses</span></a></li>
+                         </ul>
+					</div>
+				</div>
 			</aside>
+			<main>
+				<div id="section-1">
+					<div class="row">
+						<div class="col-1">
+						<h2>PS4 V2<br>Dualshock4</h2>
+						<h3>Wireless Controller for PlayStation 4</h3>
+						<p>Compatible generic</p>	
+						<h4>$32.50</h4>
+						<button type="button">Buy Now<img src="assets/img/arrow.png"> </button>
+						</div>
+						<div class="col-2">
+						<img src="assets/img/controller.png" class="control">
+						<div class="color-box"></div>
+						<div class="add-btn">
+							<img src="assets/img/add.png">
+							<p><small>Add to cart</small></p>
+						</div>	
+						</div>
+					</div>
+				</div>
+				<div id="section-2">
+					
+					<div class="latest">
+						<div class="product-intro">
+							<h1>New <span>Arrivals</span></h1>
+							<p>The lorem ipsum gets its name from the Latin phrase Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</p>
+						</div>
+					</div>
+					<div class="card-container">
+					<div class="card">
+						<div>
+							<img src="assets/img/p3.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/p2.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/p1.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/p4.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					</div>
+					<div class="card-container">
+					<div class="card">
+						<div>
+							<img src="assets/img/p8.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/p7.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/p6.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/p5.jpg">
+						</div>
+						<h1>Wireless Controller</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$500.00</p>
+						<button>Add to cart</button>
+					</div>
+					</div>
+				</div>
+				<div id="section-3">
+					<div class="latest">
+						<div class="product-intro">
+							<h1>Popular <span>Products</span></h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</p>
+						</div>
+					</div>
+					<div class="card-container">
+					<div class="card">
+						<div>
+							<img src="assets/img/l1.jpg">
+						</div>
+						<h1>Gaming Keyboard</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$800.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/l2.jpg">
+						</div>
+						<h1>Gaming Keyboard</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$800.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/l3.jpg">
+						</div>
+						<h1>Gaming Keyboard</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$800.00</p>
+						<button>Add to cart</button>
+					</div>
+					<div class="card">
+						<div>
+							<img src="assets/img/l4.jpg">
+						</div>
+						<h1>Gaming Keyboard</h1>
+						<span>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>
+						<p>$800.00</p>
+						<button>Add to cart</button>
+					</div>
+					</div>
+					<div class="card-container">
+				</div>
+				<div id="section-4">
+					<div class="product-banner">
+						<div class="left">
+							<img src="assets/img/shop.jpg" alt="">
+						</div>
+
+						<div class="right">
+							<div class="content">
+								<h2><span class="discount">70%</span> SALE OFF</h2>
+								<h1>
+									<span>Collect Your</span>Favourite Collection
+								</h1><br>
+								<button>Shop now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+ 			</div>
 
 			<!-- All your footer related works -->
 			<footer>
 
 				<!-- Footer widgets means links related stuffs in footer -->
-				<div class="footer-widgets"></div>
-				<div class="copyright"></div>
+				<div class="footer-widgets">
+					<div class="social-links">
+						<img src="assets/img/fb.png">
+						<img src="assets/img/insta.png">
+						<img src="assets/img/twitter.png">
+						<img src="assets/img/yt.png">
+					</div>
+				</div>
+				<div class="copyright">
+					<p>Designed by &nbsp; &hearts; &nbsp; Sanchita Karmacharya</p>
+				</div>
 			</footer>
 		</div>
 	</div>
 
 	<!-- Javascript starts -->
+	<script type="text/javascript" >
+	var menuList =document.getElementById("menuList");
+	menuList.style.maxHeight ="0px";
+	function togglemenu(){
+		if (menuList.style.maxHeight == "0px") {
+			menuList.style.maxHeight= "130px"
+		}
+		else
+		{
+			menuList.style.maxHeight ="0px";
+		}
+	}	
+	</script>
+	
+
 	<!-- // Javascript ends -->
 </body>
 </html>
